@@ -2,9 +2,6 @@
 #include <avr/interrupt.h>
 #include <util/delay.h>
 
-//AVRDUDE Command
-///Users/guest1/Library/Arduino15/packages/arduino/tools/avrdude/8.0.0-arduino1/bin/avrdude -c digilent -p m328p -P usb -v-c digilent -p m328p
-
 //Project Global Variables
 uint16_t toggleTime = 32768; //LED on and off period 
 uint16_t readVariable = 0; //LED on and off period
