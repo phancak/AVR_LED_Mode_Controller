@@ -1,0 +1,30 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build: Debug (Test-Build)",
+            "type": "shell",
+            "command": "avr-gcc -mmcu=atmega328p -DF_CPU=16000000UL -O0 -g -DDEBUG main.c -o main.elf && avr-objcopy -O ihex main.elf main.hex",
+            "group": "build",
+            "problemMatcher": ["$gcc"]
+        },
+        {
+            "label": "Build: Release (Production)",
+            "type": "shell",
+            "command": "avr-gcc -mmcu=atmega328p -DF_CPU=16000000UL -Os main.c -o main.elf && avr-objcopy -O ihex main.elf main.hex",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"]
+        }
+    ]
+}
+
+/*
+How to Trigger the Builds
+Once that file is saved, you have three ways to run these:
+Shortcut: Press Ctrl+Shift+B. This will prompt you to choose between Debug and Release.
+Command Palette: Press F1 (or Ctrl+Shift+P), type "Run Task", and select the one you want.
+Terminal Menu: Go to the top menu bar: Terminal -> Run Build Task...
+*/
