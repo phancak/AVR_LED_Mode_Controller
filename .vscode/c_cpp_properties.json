@@ -10,16 +10,6 @@
             "includePath": [
                 "/Users/guest1/Documents/Career/Assignment/AVR_LED_Mode_Controller/include",
                 "/Users/guest1/Documents/Career/Assignment/AVR_LED_Mode_Controller/src",
-                "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
-                "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/variants/standard",
-                "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
-                "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src",
-                "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/Flash/src",
-                "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI/src",
-                "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI1/src",
-                "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/SoftwareSerial/src",
-                "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src",
-                "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire1/src",
                 ""
             ],
             "browse": {
@@ -27,30 +17,18 @@
                 "path": [
                     "/Users/guest1/Documents/Career/Assignment/AVR_LED_Mode_Controller/include",
                     "/Users/guest1/Documents/Career/Assignment/AVR_LED_Mode_Controller/src",
-                    "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/cores/MiniCore",
-                    "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/variants/standard",
-                    "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/AVR_examples/src",
-                    "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/EEPROM/src",
-                    "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/Flash/src",
-                    "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI/src",
-                    "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/SPI1/src",
-                    "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/SoftwareSerial/src",
-                    "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire/src",
-                    "/Users/guest1/.platformio/packages/framework-arduino-avr-minicore/libraries/Wire1/src",
                     ""
                 ]
             },
             "defines": [
+                "F_CPU=8000000L",
                 "PLATFORMIO=60119",
-                "ARDUINO_AVR_ATmega328P",
-                "F_CPU=16000000L",
-                "ARDUINO_ARCH_AVR",
-                "ARDUINO=10808",
+                "ARDUINO_AVR_PRO",
                 "__AVR_ATmega328P__",
                 ""
             ],
             "cStandard": "gnu11",
-            "cppStandard": "gnu++17",
+            "cppStandard": "gnu++11",
             "compilerPath": "/Users/guest1/.platformio/packages/toolchain-atmelavr/bin/avr-gcc",
             "compilerArgs": [
                 "-mmcu=atmega328p",
