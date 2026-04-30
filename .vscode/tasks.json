@@ -1,4 +1,4 @@
-{
+  {
     "version": "2.0.0",
     "tasks": [
         {
@@ -20,11 +20,3 @@
         }
     ]
 }
-
-/*
-How to Trigger the Builds
-Once that file is saved, you have three ways to run these:
-Shortcut: Press Ctrl+Shift+B. This will prompt you to choose between Debug and Release.
-Command Palette: Press F1 (or Ctrl+Shift+P), type "Run Task", and select the one you want.
-Terminal Menu: Go to the top menu bar: Terminal -> Run Build Task...
-*/
